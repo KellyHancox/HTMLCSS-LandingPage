@@ -202,7 +202,7 @@ section { display: flex; }
     z-index: 1;
 }
 
-.footer {
+footer {
     display: flex;
     flex-wrap: wrap;
     position: relative;
@@ -210,7 +210,7 @@ section { display: flex; }
     min-height: 330px;
     color: black; 
 }
-.footer:after {
+footer:after {
     content: "";
     color: #a0a0a0;
     width: 75%;
@@ -231,6 +231,7 @@ section { display: flex; }
     font-weight: 700;
     margin-bottom: 15px;
 }
+
 footer a {
     color: white;
     text-transform: uppercase;
@@ -247,7 +248,8 @@ footer a:hover {
     display: block;
     width: 23px;
     height: 23px;
-    background-size: 23px 23px center;
+    background-size: 23px 23px;
+    background-position: center;
 }
 .twitter { 
     background-image: url('../img/twitter.svg');
@@ -274,14 +276,14 @@ footer a:hover {
     margin-bottom: 15px;
 }
 .newsletter input {
-    border: 1px solid #364347;
+    border: 1px solid #364147;
     width: 200px;
     margin-bottom: 10px;
 }
 .newsletter button {
-    width: 15px;
+    width: 150px;
     min-width: auto;
-    text-transform: auto;
+    text-transform: uppercase;
     letter-spacing: 1px;
 }
 .ps {
@@ -289,6 +291,9 @@ footer a:hover {
     padding: 40px 0; 
     color: #e5e5e5;
     font-size: 16px;
+}
+.ps img {
+    max-width: 230px;
 }
 .demo { 
     padding: 0 30px;
